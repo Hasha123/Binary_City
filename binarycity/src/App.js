@@ -2,8 +2,8 @@ import React from 'react';
 import Navbar from './Components/Navbar';
 import {BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
-import Client from './Components/pages/Client';
-import Contact from './Components/pages/Contact';
+import Client from './Components/pages/clientForm';
+import Contact from './Components/pages/contactForm';
 
 function App() {
   return (
